@@ -66,7 +66,7 @@ function onMessageHandler (target, context, msg, self) {
 }
 
 function socials (target) {
-  client.say(target, 'Rejoigniez moi sur Discord --> https://discord.com/invite/ne7cDFJ7wB');
+  client.say(target, 'Rejoigniez moi sur Discord --> ');
 }
 
 // Called every time the bot connects to Twitch chat
