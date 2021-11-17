@@ -23,6 +23,7 @@ channels:
 PS D:\dev\open-twitch-bot> node bot.js
 * Connected to irc-ws.chat.twitch.tv:443
 ```
-Sur le chat, tapez la commande "!hello-world
+
+Sur le chat, tapez la commande "!hello-world"
 
 ![hello-world](doc/hello-world.png)
