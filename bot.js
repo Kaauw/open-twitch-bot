@@ -49,6 +49,9 @@ function onMessageHandler (target, context, msg, self) {
 
   // If the command is known, let's execute it
   switch (commandName) {
+  case '!hello-world':
+    client.say(target, 'Hello World from open-twitch-bot')
+    break;
 	case '!multitwitch':
 	  if (multiTwitch === true) {
 	    client.say(target, 'Le Multi-Twitch du jour : ' + multiTwitchUrl)
